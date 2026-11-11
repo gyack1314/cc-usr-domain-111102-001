@@ -1,0 +1,38 @@
+[
+  {
+    "event_id": "d1",
+    "case_id": "D",
+    "sequence": 1,
+    "activity": "单证核验"
+  },
+  {
+    "event_id": "d2",
+    "case_id": "D",
+    "sequence": 2,
+    "activity": "场内检查"
+  },
+  {
+    "event_id": "d3",
+    "case_id": "D",
+    "sequence": 3,
+    "activity": "返工"
+  },
+  {
+    "event_id": "d4",
+    "case_id": "D",
+    "sequence": 4,
+    "activity": "单证核验"
+  },
+  {
+    "event_id": "d5",
+    "case_id": "D",
+    "sequence": 5,
+    "activity": "场内检查"
+  },
+  {
+    "event_id": "d6",
+    "case_id": "D",
+    "sequence": 6,
+    "activity": "放行"
+  }
+]

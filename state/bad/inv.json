@@ -1,0 +1,1 @@
+{"cost_id":"d","results":[{"action_count":null,"case_id":"X","complete":false,"cost":null,"deviation_cost":null,"error":"定义ID重复","events_consumed":[],"expanded":0,"final_marking":null,"moves":[],"net_id":"bad","search_limit":100000,"status":"invalid_net"}]}

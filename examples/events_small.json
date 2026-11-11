@@ -1,0 +1,8 @@
+[
+  {"event_id": "s1", "case_id": "S1", "sequence": 1, "activity": "A"},
+  {"event_id": "s2", "case_id": "S1", "sequence": 2, "activity": "B"},
+  {"event_id": "s3", "case_id": "S2", "sequence": 1, "activity": "Y"},
+  {"event_id": "s4", "case_id": "S2", "sequence": 2, "activity": "X"},
+  {"event_id": "s5", "case_id": "S3", "sequence": 1, "activity": "B"},
+  {"event_id": "s6", "case_id": "S3", "sequence": 2, "activity": "A"}
+]

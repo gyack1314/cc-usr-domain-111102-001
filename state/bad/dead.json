@@ -1,0 +1,1 @@
+[{"final":["p1"],"id":"dead","initial":["p0"],"places":["p0","p1"],"transitions":[{"id":"a","label":"A","post":["p0"],"pre":["p0"]}]}]

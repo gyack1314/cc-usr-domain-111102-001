@@ -1,0 +1,1 @@
+{"cost_id":"d","results":[{"action_count":null,"case_id":"X","complete":true,"cost":null,"deviation_cost":null,"error":"乘积状态空间已穷尽，无法消费全部事件并到达终态","events_consumed":[],"expanded":2,"final_marking":null,"moves":[],"net_id":"dead","search_limit":100000,"status":"unreachable"}]}
