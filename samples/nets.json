@@ -1,0 +1,85 @@
+[
+  {
+    "id": "port",
+    "places": [
+      "start",
+      "docs",
+      "yard",
+      "d_done",
+      "y_done",
+      "release",
+      "end"
+    ],
+    "initial": [
+      "start"
+    ],
+    "final": [
+      "end"
+    ],
+    "transitions": [
+      {
+        "id": "split",
+        "label": null,
+        "pre": [
+          "start"
+        ],
+        "post": [
+          "docs",
+          "yard"
+        ]
+      },
+      {
+        "id": "check_docs",
+        "label": "单证核验",
+        "pre": [
+          "docs"
+        ],
+        "post": [
+          "d_done"
+        ]
+      },
+      {
+        "id": "check_yard",
+        "label": "场内检查",
+        "pre": [
+          "yard"
+        ],
+        "post": [
+          "y_done"
+        ]
+      },
+      {
+        "id": "join",
+        "label": null,
+        "pre": [
+          "d_done",
+          "y_done"
+        ],
+        "post": [
+          "release"
+        ]
+      },
+      {
+        "id": "rework",
+        "label": "返工",
+        "pre": [
+          "release"
+        ],
+        "post": [
+          "docs",
+          "yard"
+        ]
+      },
+      {
+        "id": "permit",
+        "label": "放行",
+        "pre": [
+          "release"
+        ],
+        "post": [
+          "end"
+        ]
+      }
+    ]
+  }
+]

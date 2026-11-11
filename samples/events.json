@@ -1,0 +1,50 @@
+[
+  {
+    "event_id": "e1",
+    "case_id": "A",
+    "sequence": 1,
+    "activity": "场内检查"
+  },
+  {
+    "event_id": "e2",
+    "case_id": "A",
+    "sequence": 2,
+    "activity": "单证核验"
+  },
+  {
+    "event_id": "e3",
+    "case_id": "A",
+    "sequence": 3,
+    "activity": "放行"
+  },
+  {
+    "event_id": "e4",
+    "case_id": "B",
+    "sequence": 1,
+    "activity": "单证核验"
+  },
+  {
+    "event_id": "e5",
+    "case_id": "B",
+    "sequence": 2,
+    "activity": "场内检查"
+  },
+  {
+    "event_id": "e6",
+    "case_id": "C",
+    "sequence": 1,
+    "activity": "单证核验"
+  },
+  {
+    "event_id": "e7",
+    "case_id": "C",
+    "sequence": 2,
+    "activity": "单证核验"
+  },
+  {
+    "event_id": "e8",
+    "case_id": "C",
+    "sequence": 3,
+    "activity": "放行"
+  }
+]
